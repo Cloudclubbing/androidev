@@ -75,24 +75,15 @@ public class LoginActivty extends Activity {
     class ResultPost implements IAction {
         public void exec(String result) {
 
-
-            if (result.equals("ok")) {
-                Intent intent = new Intent(activity, Home.class);
-
-                startActivity(intent);
-
-            } else {
-                AlertDialog alertDialog = new AlertDialog.Builder(activity).create();
-                alertDialog.setTitle("Connexion");
-                alertDialog.setMessage("Result " + result);
-
-                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                    }
-                });
+            AlertDialog alertDialog = new AlertDialog.Builder(activity).create();
+            alertDialog.setTitle("Connexion");
+            alertDialog.setMessage("Result " + result);
+            alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int which) {
+                }
+            });
 //            alertDialog.setIcon(R.drawable.icon);
-                alertDialog.show();
-            }
+            alertDialog.show();
         }
     }
 }
