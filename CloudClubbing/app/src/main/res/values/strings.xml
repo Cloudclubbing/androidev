@@ -2,16 +2,17 @@
 <resources>
 
     <string name="app_name">Cloud Clubbing</string>
-    <string name="title_section1">Fil d\'actualité</string>
-    <string name="title_section2">Galerie</string>
-    <string name="title_section3">Consomations</string>
-    <string name="title_section4">Night Club</string>
-    <string name="title_section5">Mon compte</string>
+    <string name="title_section1">Flux d\'évènements</string>
+    <string name="title_section2">Evènements</string>
+    <string name="title_section3">Au bar</string>
+    <string name="title_section4">Medias</string>
+    <string name="title_section5">Contact</string>
+    <string name="title_section6">Mon compte</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Actualiser</string>
     <string name="action_settings">Parametres</string>
-    <string name="title_activity_LoginActivity">Login</string>
+    <string name="title_activity_LoginActivity">Cloud Clubbing</string>
     <string name="prompt_email">User</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Connect</string>

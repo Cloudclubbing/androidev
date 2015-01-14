@@ -5,6 +5,7 @@ import java.util.List;
 /**
  * Created by priteshasvinetsakou on 16/12/14.
  */
+
 public class NightClub {
 
     private String          description;
